@@ -265,7 +265,7 @@
                     </div>
                     <div class="project-content">
                         <h3>Joinin Kopi</h3>
-                        <p>Aplikasi manajemen kedai kopi berbasis desktop dengan fitur point-of-sale, manajemen menu, laporan transaksi, dan antarmuka kasir yang intuitif.</p>
+                        <p>Aplikasi kasir berbasis desktop yang dirancang untuk meningkatkan efisiensi operasional kedai kopi, mencakup sistem point-of-sale real-time, manajemen stok otomatis, dan laporan penjualan harian serta bulanan yang membantu pemilik bisnis dalam pengambilan keputusan secara akurat.</p>
                         <div class="tech-badges">
                             <span class="badge badge-java">Java</span>
                             <span class="badge badge-netbeans">NetBeans</span>
@@ -287,8 +287,8 @@
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3>Topupin</h3>
-                        <p>Platform top-up digital berbasis web untuk pembelian pulsa, paket data, token listrik, dan voucher game dengan antarmuka yang responsif.</p>
+                        <h3>TopUpin</h3>
+                        <p>Platform top-up digital berbasis web dan mobile yang memudahkan masyarakat dalam mengakses layanan pulsa, paket data, token listrik, dan voucher game dalam satu platform terintegrasi, didukung sistem transaksi otomatis dan histori pembelian yang transparan.</p>
                         <div class="tech-badges">
                             <span class="badge badge-php">PHP</span>
                             <span class="badge badge-mysql">MySQL</span>
@@ -310,8 +310,8 @@
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3>SimpaDi</h3>
-                        <p>Sistem manajemen perpustakaan digital dengan aplikasi mobile Flutter dan backend Laravel — mencakup katalog buku, peminjaman, dan notifikasi pengembalian.</p>
+                        <h3>SIMPADI</h3>
+                        <p>Sistem informasi pertanian terpadu berbasis web dan mobile yang membantu petani dalam mengelola transaksi, stok, dan laporan keuangan secara digital, sehingga meningkatkan efisiensi dan transparansi pengelolaan usaha tani dari hulu hingga pascapanen.</p>
                         <div class="tech-badges">
                             <span class="badge badge-laravel">Laravel</span>
                             <span class="badge badge-flutter">Flutter</span>
@@ -334,8 +334,8 @@
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3>Smart Hidroponik Sawi Caisim</h3>
-                        <p>Sistem monitoring pertumbuhan sawi caisim berbasis IoT menggunakan deteksi objek YOLOv8 dan algoritma Fuzzy Mamdani untuk kontrol otomatis nutrisi.</p>
+                        <h3>Smart Hidroponik Pertumbuhan Sawi Caisim</h3>
+                        <p>Sistem monitoring pertumbuhan tanaman hidroponik berbasis IoT yang mengintegrasikan sensor pH, TDS, dan suhu menggunakan ESP32, deteksi tinggi tanaman dengan YOLOv8, serta kontrol nutrisi otomatis berbasis Fuzzy Mamdani untuk mendukung pertanian presisi yang efisien dan berkelanjutan.</p>
                         <div class="tech-badges">
                             <span class="badge badge-laravel">Laravel</span>
                             <span class="badge badge-cpp">C++</span>
@@ -430,7 +430,7 @@
     <footer class="footer">
         <div class="container footer-inner">
             <p class="footer-name">Dendi Aprilio Setiawan</p>
-            <p class="footer-copy">&copy; 2025 · Fullstack Developer · Banyuwangi, Indonesia</p>
+            <p class="footer-copy">&copy; 2025 · Fullstack Web & Mobile Developer· Banyuwangi, Indonesia</p>
             <div class="footer-links">
                 <a href="#hero">Home</a>
                 <a href="#about">About</a>
