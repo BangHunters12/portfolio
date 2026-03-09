@@ -149,7 +149,7 @@
                             <div>
                                 <h4>D4 Teknologi Informasi</h4>
                                 <p>Politeknik Negeri Jember</p>
-                                <span class="edu-year">2021 – 2024</span>
+                                <span class="edu-year">2023 – 2027</span>
                             </div>
                         </div>
                         <div class="edu-item">
@@ -157,7 +157,7 @@
                             <div>
                                 <h4>IPA — SMA</h4>
                                 <p>SMAN 1 Wongsorejo, Banyuwangi</p>
-                                <span class="edu-year">2018 – 2021</span>
+                                <span class="edu-year">2020 – 2023</span>
                             </div>
                         </div>
                     </div>
