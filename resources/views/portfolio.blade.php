@@ -104,7 +104,8 @@
                     <h2 class="section-heading">Passionate Developer,<br>Creative Problem Solver</h2>
                     <p class="about-body">
                         Saya adalah mahasiswa <strong>Teknologi Informasi</strong> di Politeknik Negeri Jember dengan
-                        fokus pada pengembangan fullstack. Saya memiliki pengalaman membangun aplikasi dari nol — mulai
+                        fokus pada pengembangan fullstack Web & Mobile Developer. Saya memiliki pengalaman membangun
+                        aplikasi dari nol — mulai
                         dari desain UI/UX hingga deployment — menggunakan teknologi modern seperti Laravel, Flutter, dan
                         Java.
                     </p>
@@ -305,8 +306,8 @@
                         <div class="project-actions">
                             <a href="https://youtu.be/sgeRBicVNOw?si=waSRzoN60ew9wlJV" target="_blank" rel="noopener"
                                 class="btn-demo"><i class="fab fa-youtube"></i> Demo</a>
-                            <a href="#" target="_blank" rel="noopener" class="btn-repo"><i
-                                    class="fab fa-github"></i> Repo</a>
+                            <a href="https://github.com/BangHunters12/joinin_kopi.git" target="_blank" rel="noopener"
+                                class="btn-repo"><i class="fab fa-github"></i> Repo</a>
                         </div>
                     </div>
                 </article>
@@ -330,10 +331,10 @@
                             <span class="badge badge-bootstrap">Bootstrap</span>
                         </div>
                         <div class="project-actions">
-                            <a href="#" target="_blank" rel="noopener" class="btn-demo"><i
-                                    class="fab fa-youtube"></i> Demo</a>
-                            <a href="#" target="_blank" rel="noopener" class="btn-repo"><i
-                                    class="fab fa-github"></i> Repo</a>
+                            <a href="https://youtu.be/xUO2X-hDXqU?si=cjieXCWbzO1MFiIE" target="_blank" rel="noopener"
+                                class="btn-demo"><i class="fab fa-youtube"></i> Demo</a>
+                            <a href="https://github.com/BangHunters12/ppob2.git" target="_blank" rel="noopener"
+                                class="btn-repo"><i class="fab fa-github"></i> Repo</a>
                         </div>
                     </div>
                 </article>
@@ -358,10 +359,10 @@
                             <span class="badge badge-php">PHP</span>
                         </div>
                         <div class="project-actions">
-                            <a href="#" target="_blank" rel="noopener" class="btn-demo"><i
-                                    class="fab fa-youtube"></i> Demo</a>
-                            <a href="#" target="_blank" rel="noopener" class="btn-repo"><i
-                                    class="fab fa-github"></i> Repo</a>
+                            <a href="https://youtu.be/EQTt_3nupBM?si=jkb0F-wfbCvpzUOG" target="_blank" rel="noopener"
+                                class="btn-demo"><i class="fab fa-youtube"></i> Demo</a>
+                            <a href="https://github.com/BangHunters12/pascapanen.git" target="_blank" rel="noopener"
+                                class="btn-repo"><i class="fab fa-github"></i> Repo</a>
                         </div>
                     </div>
                 </article>
@@ -389,10 +390,10 @@
                             <span class="badge badge-fuzzy">Fuzzy Mamdani</span>
                         </div>
                         <div class="project-actions">
-                            <a href="#" target="_blank" rel="noopener" class="btn-demo"><i
-                                    class="fab fa-youtube"></i> Demo</a>
-                            <a href="#" target="_blank" rel="noopener" class="btn-repo"><i
-                                    class="fab fa-github"></i> Repo</a>
+                            <a href="https://youtu.be/FDuAsw2Hnpo?si=Y2G7iH2Za__VryrJ" target="_blank" rel="noopener"
+                                class="btn-demo"><i class="fab fa-youtube"></i> Demo</a>
+                            <a href="https://github.com/BangHunters12/sawi_caisim.git" target="_blank" rel="noopener"
+                                class="btn-repo"><i class="fab fa-github"></i> Repo</a>
                         </div>
                     </div>
                 </article>
@@ -437,14 +438,14 @@
                     <div class="social-section">
                         <p class="social-label">Find me on</p>
                         <div class="social-links">
-                            <a href="#" aria-label="GitHub" class="social-btn"><i
+                            <a href="https://github.com/BangHunters12" aria-label="GitHub" class="social-btn"><i
                                     class="fab fa-github"></i></a>
-                            <a href="#" aria-label="LinkedIn" class="social-btn"><i
-                                    class="fab fa-linkedin-in"></i></a>
-                            <a href="#" aria-label="Instagram" class="social-btn"><i
-                                    class="fab fa-instagram"></i></a>
-                            <a href="#" aria-label="YouTube" class="social-btn"><i
-                                    class="fab fa-youtube"></i></a>
+                            <a href="https://www.linkedin.com/in/dendi-aprilio-setiawan/" aria-label="LinkedIn"
+                                class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.instagram.com/dendiaprilio_/" aria-label="Instagram"
+                                class="social-btn"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@dendiaprilio4031" aria-label="YouTube"
+                                class="social-btn"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
