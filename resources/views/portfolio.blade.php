@@ -23,6 +23,14 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Prevent theme flash: apply saved theme immediately -->
+    <script>
+        (function() {
+            var t = localStorage.getItem('portfolio-theme') || 'dark';
+            document.documentElement.setAttribute('data-theme', t);
+        })();
+    </script>
 </head>
 
 <body>
@@ -33,7 +41,7 @@
     <nav class="navbar">
         <div class="container nav-container">
             <a href="#hero" class="logo">
-                <img src="{{ asset('logo/logo.png') }}" alt="Logo Dendi" style="height:52px;width:auto;">
+                <img src="{{ asset('logo/logo.png') }}" alt="Logo Dendi" style="max-height: 120px; width: auto; max-width: 140px; object-fit: contain;">
             </a>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
@@ -42,6 +50,10 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact" class="nav-cta">Hire Me</a></li>
             </ul>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+            </button>
             <div class="hamburger" aria-label="Menu" role="button">
                 <span></span><span></span><span></span>
             </div>
@@ -156,6 +168,7 @@
                         </div>
                         <div class="service-row"><i class="fas fa-microchip"></i><span>IoT System Design</span></div>
                         <div class="service-row"><i class="fas fa-paint-brush"></i><span>UI/UX Design</span></div>
+                        <div class="service-row"><i class="fas fa-video"></i><span>Video Editing</span></div>
                     </div>
                 </div>
             </div>
@@ -198,6 +211,14 @@
                         <span class="stag">YOLOv8</span>
                         <span class="stag">Python</span>
                         <span class="stag">Fuzzy Logic</span>
+                    </div>
+
+                    <div class="skill-category-label">Creative & Media</div>
+                    <div class="skill-tags-group">
+                        <span class="stag">Video Editing</span>
+                        <span class="stag">Premiere Pro</span>
+                        <span class="stag">CapCut</span>
+                        <span class="stag">After Effects</span>
                     </div>
 
                     <div class="skill-category-label">Tools & Workflow</div>
@@ -261,6 +282,12 @@
                         <div class="sb-info"><span>Figma / UI Design</span><span>82%</span></div>
                         <div class="sb-track">
                             <div class="sb-fill" style="width:82%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="sb-info"><span>Video Editing (Premiere/CapCut)</span><span>85%</span></div>
+                        <div class="sb-track">
+                            <div class="sb-fill" style="width:85%"></div>
                         </div>
                     </div>
                 </div>

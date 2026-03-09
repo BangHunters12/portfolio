@@ -211,4 +211,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     statNums.forEach(el => statObs.observe(el));
 
+
+    // ── 8. THEME TOGGLE (Light / Dark) ──
+    const themeToggle = document.getElementById('theme-toggle');
+    const htmlEl = document.documentElement;
+
+    // Apply saved theme on load (also handled by inline script to prevent flash)
+    const savedTheme = localStorage.getItem('portfolio-theme') || 'dark';
+    htmlEl.setAttribute('data-theme', savedTheme);
+
+    if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+            const current = htmlEl.getAttribute('data-theme') || 'dark';
+            const next = current === 'dark' ? 'light' : 'dark';
+            htmlEl.setAttribute('data-theme', next);
+            localStorage.setItem('portfolio-theme', next);
+        });
+    }
+
 });
