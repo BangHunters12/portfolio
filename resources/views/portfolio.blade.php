@@ -303,8 +303,8 @@
                             <span class="badge badge-mysql">MySQL</span>
                         </div>
                         <div class="project-actions">
-                            <a href="#" target="_blank" rel="noopener" class="btn-demo"><i
-                                    class="fab fa-youtube"></i> Demo</a>
+                            <a href="https://youtu.be/sgeRBicVNOw?si=waSRzoN60ew9wlJV" target="_blank" rel="noopener"
+                                class="btn-demo"><i class="fab fa-youtube"></i> Demo</a>
                             <a href="#" target="_blank" rel="noopener" class="btn-repo"><i
                                     class="fab fa-github"></i> Repo</a>
                         </div>
