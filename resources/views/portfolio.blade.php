@@ -77,7 +77,7 @@
             </div>
             <div class="hero-image">
                 <div class="hero-img-wrapper">
-                    <img src="{{ asset('images/profile.png') }}" alt="Dendi Aprilio Setiawan">
+                    <img src="{{ asset('images/profilqe.png') }}" alt="Dendi Aprilio Setiawan">
                     <div class="hero-badge hero-badge--top">
                         <i class="fas fa-laptop-code"></i>
                         {{-- <span>4 Projects</span> --}}
