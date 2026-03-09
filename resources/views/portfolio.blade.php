@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dendi Aprilio Setiawan — Fullstack Developer</title>
-    <meta name="description" content="Portofolio Dendi Aprilio Setiawan — Fullstack Web & Mobile Developer dari Politeknik Negeri Jember, ahli dalam Laravel, Flutter, Java, IoT, dan Machine Learning.">
+    <meta name="description"
+        content="Portofolio Dendi Aprilio Setiawan — Fullstack Web & Mobile Developer dari Politeknik Negeri Jember, ahli dalam Laravel, Flutter, Java, IoT, dan Machine Learning.">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ asset('logo/favicon_black.ico') }}">
@@ -13,13 +15,16 @@
     <!-- Fonts: Inter + Plus Jakarta Sans for headings -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+        rel="stylesheet">
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
     <!-- Global Animated Background -->
     <canvas id="global-canvas"></canvas>
@@ -56,7 +61,8 @@
                     Fullstack <span class="highlight-stroke">Developer</span>
                 </h1>
                 <p class="hero-description">
-                    Mahasiswa Teknologi Informasi Politeknik Negeri Jember yang passionate dalam membangun aplikasi  web, mobile, dan sistem IoT yang skalabel dan berdampak nyata.
+                    Mahasiswa Teknologi Informasi Politeknik Negeri Jember yang passionate dalam membangun aplikasi web,
+                    mobile, dan sistem IoT yang skalabel dan berdampak nyata.
                 </p>
                 <div class="hero-tags">
                     <span><i class="fas fa-check-circle"></i> Laravel &amp; PHP</span>
@@ -74,11 +80,11 @@
                     <img src="{{ asset('images/profile.png') }}" alt="Dendi Aprilio Setiawan">
                     <div class="hero-badge hero-badge--top">
                         <i class="fas fa-laptop-code"></i>
-                        <span>4 Projects</span>
+                        {{-- <span>4 Projects</span> --}}
                     </div>
                     <div class="hero-badge hero-badge--bottom">
                         <i class="fas fa-graduation-cap"></i>
-                        <span>D3 IT — Polje</span>
+                        {{-- <span>D3 IT — Polje</span> --}}
                     </div>
                 </div>
             </div>
@@ -97,10 +103,15 @@
                     <p class="section-label"><i class="fas fa-user"></i> About Me</p>
                     <h2 class="section-heading">Passionate Developer,<br>Creative Problem Solver</h2>
                     <p class="about-body">
-                        Saya adalah mahasiswa <strong>Teknologi Informasi</strong> di Politeknik Negeri Jember dengan fokus pada pengembangan fullstack. Saya memiliki pengalaman membangun aplikasi dari nol — mulai dari desain UI/UX hingga deployment — menggunakan teknologi modern seperti Laravel, Flutter, dan Java.
+                        Saya adalah mahasiswa <strong>Teknologi Informasi</strong> di Politeknik Negeri Jember dengan
+                        fokus pada pengembangan fullstack. Saya memiliki pengalaman membangun aplikasi dari nol — mulai
+                        dari desain UI/UX hingga deployment — menggunakan teknologi modern seperti Laravel, Flutter, dan
+                        Java.
                     </p>
                     <p class="about-body">
-                        Saya juga tertarik pada bidang <strong>IoT</strong> dan <strong>Machine Learning</strong>, terbukti dari proyek akhir saya yang mengintegrasikan YOLOv8 dan Fuzzy Mamdani untuk sistem monitoring pertumbuhan tanaman secara real-time.
+                        Saya juga tertarik pada bidang <strong>IoT</strong> dan <strong>Machine Learning</strong>,
+                        terbukti dari proyek akhir saya yang mengintegrasikan YOLOv8 dan Fuzzy Mamdani untuk sistem
+                        monitoring pertumbuhan tanaman secara real-time.
                     </p>
                     <div class="about-stats">
                         <div class="stat-pill">
@@ -123,7 +134,7 @@
                         <div class="edu-item">
                             <div class="edu-icon"><i class="fas fa-university"></i></div>
                             <div>
-                                <h4>D3 Teknologi Informasi</h4>
+                                <h4>D4 Teknologi Informasi</h4>
                                 <p>Politeknik Negeri Jember</p>
                                 <span class="edu-year">2021 – 2024</span>
                             </div>
@@ -140,7 +151,8 @@
                     <div class="service-list-block">
                         <p class="section-label"><i class="fas fa-cogs"></i> Services</p>
                         <div class="service-row"><i class="fas fa-code"></i><span>Web Development</span></div>
-                        <div class="service-row"><i class="fas fa-mobile-alt"></i><span>Mobile App Development</span></div>
+                        <div class="service-row"><i class="fas fa-mobile-alt"></i><span>Mobile App Development</span>
+                        </div>
                         <div class="service-row"><i class="fas fa-microchip"></i><span>IoT System Design</span></div>
                         <div class="service-row"><i class="fas fa-paint-brush"></i><span>UI/UX Design</span></div>
                     </div>
@@ -204,35 +216,51 @@
 
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>Laravel / PHP</span><span>88%</span></div>
-                        <div class="sb-track"><div class="sb-fill" style="width:88%"></div></div>
+                        <div class="sb-track">
+                            <div class="sb-fill" style="width:88%"></div>
+                        </div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>HTML & CSS</span><span>85%</span></div>
-                        <div class="sb-track"><div class="sb-fill" style="width:85%"></div></div>
+                        <div class="sb-track">
+                            <div class="sb-fill" style="width:85%"></div>
+                        </div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>Flutter / Dart</span><span>80%</span></div>
-                        <div class="sb-track"><div class="sb-fill" style="width:80%"></div></div>
+                        <div class="sb-track">
+                            <div class="sb-fill" style="width:80%"></div>
+                        </div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>JavaScript</span><span>78%</span></div>
-                        <div class="sb-track"><div class="sb-fill" style="width:78%"></div></div>
+                        <div class="sb-track">
+                            <div class="sb-fill" style="width:78%"></div>
+                        </div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>Java (Desktop)</span><span>75%</span></div>
-                        <div class="sb-track"><div class="sb-fill" style="width:75%"></div></div>
+                        <div class="sb-track">
+                            <div class="sb-fill" style="width:75%"></div>
+                        </div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>Python / YOLOv8</span><span>70%</span></div>
-                        <div class="sb-track"><div class="sb-fill" style="width:70%"></div></div>
+                        <div class="sb-track">
+                            <div class="sb-fill" style="width:70%"></div>
+                        </div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>IoT (ESP32 / C++)</span><span>68%</span></div>
-                        <div class="sb-track"><div class="sb-fill" style="width:68%"></div></div>
+                        <div class="sb-track">
+                            <div class="sb-fill" style="width:68%"></div>
+                        </div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>Figma / UI Design</span><span>82%</span></div>
-                        <div class="sb-track"><div class="sb-fill" style="width:82%"></div></div>
+                        <div class="sb-track">
+                            <div class="sb-fill" style="width:82%"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -265,15 +293,20 @@
                     </div>
                     <div class="project-content">
                         <h3>Joinin Kopi</h3>
-                        <p>Aplikasi kasir berbasis desktop yang dirancang untuk meningkatkan efisiensi operasional kedai kopi, mencakup sistem point-of-sale real-time, manajemen stok otomatis, dan laporan penjualan harian serta bulanan yang membantu pemilik bisnis dalam pengambilan keputusan secara akurat.</p>
+                        <p>Aplikasi kasir berbasis desktop yang dirancang untuk meningkatkan efisiensi operasional kedai
+                            kopi, mencakup sistem point-of-sale real-time, manajemen stok otomatis, dan laporan
+                            penjualan harian serta bulanan yang membantu pemilik bisnis dalam pengambilan keputusan
+                            secara akurat.</p>
                         <div class="tech-badges">
                             <span class="badge badge-java">Java</span>
                             <span class="badge badge-netbeans">NetBeans</span>
                             <span class="badge badge-mysql">MySQL</span>
                         </div>
                         <div class="project-actions">
-                            <a href="#" target="_blank" rel="noopener" class="btn-demo"><i class="fab fa-youtube"></i> Demo</a>
-                            <a href="#" target="_blank" rel="noopener" class="btn-repo"><i class="fab fa-github"></i> Repo</a>
+                            <a href="#" target="_blank" rel="noopener" class="btn-demo"><i
+                                    class="fab fa-youtube"></i> Demo</a>
+                            <a href="#" target="_blank" rel="noopener" class="btn-repo"><i
+                                    class="fab fa-github"></i> Repo</a>
                         </div>
                     </div>
                 </article>
@@ -288,15 +321,19 @@
                     </div>
                     <div class="project-content">
                         <h3>TopUpin</h3>
-                        <p>Platform top-up digital berbasis web dan mobile yang memudahkan masyarakat dalam mengakses layanan pulsa, paket data, token listrik, dan voucher game dalam satu platform terintegrasi, didukung sistem transaksi otomatis dan histori pembelian yang transparan.</p>
+                        <p>Platform top-up digital berbasis web dan mobile yang memudahkan masyarakat dalam mengakses
+                            layanan pulsa, paket data, token listrik, dan voucher game dalam satu platform terintegrasi,
+                            didukung sistem transaksi otomatis dan histori pembelian yang transparan.</p>
                         <div class="tech-badges">
                             <span class="badge badge-php">PHP</span>
                             <span class="badge badge-mysql">MySQL</span>
                             <span class="badge badge-bootstrap">Bootstrap</span>
                         </div>
                         <div class="project-actions">
-                            <a href="#" target="_blank" rel="noopener" class="btn-demo"><i class="fab fa-youtube"></i> Demo</a>
-                            <a href="#" target="_blank" rel="noopener" class="btn-repo"><i class="fab fa-github"></i> Repo</a>
+                            <a href="#" target="_blank" rel="noopener" class="btn-demo"><i
+                                    class="fab fa-youtube"></i> Demo</a>
+                            <a href="#" target="_blank" rel="noopener" class="btn-repo"><i
+                                    class="fab fa-github"></i> Repo</a>
                         </div>
                     </div>
                 </article>
@@ -311,7 +348,9 @@
                     </div>
                     <div class="project-content">
                         <h3>SIMPADI</h3>
-                        <p>Sistem informasi pertanian terpadu berbasis web dan mobile yang membantu petani dalam mengelola transaksi, stok, dan laporan keuangan secara digital, sehingga meningkatkan efisiensi dan transparansi pengelolaan usaha tani dari hulu hingga pascapanen.</p>
+                        <p>Sistem informasi pertanian terpadu berbasis web dan mobile yang membantu petani dalam
+                            mengelola transaksi, stok, dan laporan keuangan secara digital, sehingga meningkatkan
+                            efisiensi dan transparansi pengelolaan usaha tani dari hulu hingga pascapanen.</p>
                         <div class="tech-badges">
                             <span class="badge badge-laravel">Laravel</span>
                             <span class="badge badge-flutter">Flutter</span>
@@ -319,8 +358,10 @@
                             <span class="badge badge-php">PHP</span>
                         </div>
                         <div class="project-actions">
-                            <a href="#" target="_blank" rel="noopener" class="btn-demo"><i class="fab fa-youtube"></i> Demo</a>
-                            <a href="#" target="_blank" rel="noopener" class="btn-repo"><i class="fab fa-github"></i> Repo</a>
+                            <a href="#" target="_blank" rel="noopener" class="btn-demo"><i
+                                    class="fab fa-youtube"></i> Demo</a>
+                            <a href="#" target="_blank" rel="noopener" class="btn-repo"><i
+                                    class="fab fa-github"></i> Repo</a>
                         </div>
                     </div>
                 </article>
@@ -328,14 +369,18 @@
                 <!-- Project 4: IoT Smart Hidroponik -->
                 <article class="project-card" data-category="iot">
                     <div class="project-image">
-                        <img src="{{ asset('images/hidroponik_iot.png') }}" alt="IoT Smart Hidroponik" loading="lazy">
+                        <img src="{{ asset('images/hidroponik_iot.png') }}" alt="IoT Smart Hidroponik"
+                            loading="lazy">
                         <div class="project-overlay">
                             <span class="project-category"><i class="fas fa-microchip"></i> IoT & AI</span>
                         </div>
                     </div>
                     <div class="project-content">
                         <h3>Smart Hidroponik Pertumbuhan Sawi Caisim</h3>
-                        <p>Sistem monitoring pertumbuhan tanaman hidroponik berbasis IoT yang mengintegrasikan sensor pH, TDS, dan suhu menggunakan ESP32, deteksi tinggi tanaman dengan YOLOv8, serta kontrol nutrisi otomatis berbasis Fuzzy Mamdani untuk mendukung pertanian presisi yang efisien dan berkelanjutan.</p>
+                        <p>Sistem monitoring pertumbuhan tanaman hidroponik berbasis IoT yang mengintegrasikan sensor
+                            pH, TDS, dan suhu menggunakan ESP32, deteksi tinggi tanaman dengan YOLOv8, serta kontrol
+                            nutrisi otomatis berbasis Fuzzy Mamdani untuk mendukung pertanian presisi yang efisien dan
+                            berkelanjutan.</p>
                         <div class="tech-badges">
                             <span class="badge badge-laravel">Laravel</span>
                             <span class="badge badge-cpp">C++</span>
@@ -344,8 +389,10 @@
                             <span class="badge badge-fuzzy">Fuzzy Mamdani</span>
                         </div>
                         <div class="project-actions">
-                            <a href="#" target="_blank" rel="noopener" class="btn-demo"><i class="fab fa-youtube"></i> Demo</a>
-                            <a href="#" target="_blank" rel="noopener" class="btn-repo"><i class="fab fa-github"></i> Repo</a>
+                            <a href="#" target="_blank" rel="noopener" class="btn-demo"><i
+                                    class="fab fa-youtube"></i> Demo</a>
+                            <a href="#" target="_blank" rel="noopener" class="btn-repo"><i
+                                    class="fab fa-github"></i> Repo</a>
                         </div>
                     </div>
                 </article>
@@ -358,7 +405,8 @@
         <div class="container">
             <p class="section-label center"><i class="fas fa-paper-plane"></i> Get In Touch</p>
             <h2 class="section-title">Let's Work Together</h2>
-            <p class="section-subtitle">Saya sedang mencari kesempatan <strong>magang / internship</strong> di bidang pengembangan software. Mari terhubung!</p>
+            <p class="section-subtitle">Saya sedang mencari kesempatan <strong>magang / internship</strong> di bidang
+                pengembangan software. Mari terhubung!</p>
 
             <div class="contact-wrapper">
                 <div class="contact-info">
@@ -389,10 +437,14 @@
                     <div class="social-section">
                         <p class="social-label">Find me on</p>
                         <div class="social-links">
-                            <a href="#" aria-label="GitHub" class="social-btn"><i class="fab fa-github"></i></a>
-                            <a href="#" aria-label="LinkedIn" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" aria-label="Instagram" class="social-btn"><i class="fab fa-instagram"></i></a>
-                            <a href="#" aria-label="YouTube" class="social-btn"><i class="fab fa-youtube"></i></a>
+                            <a href="#" aria-label="GitHub" class="social-btn"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="#" aria-label="LinkedIn" class="social-btn"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="Instagram" class="social-btn"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="YouTube" class="social-btn"><i
+                                    class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
@@ -442,4 +494,5 @@
 
     <script src="{{ asset('js/script.js') }}"></script>
 </body>
+
 </html>
