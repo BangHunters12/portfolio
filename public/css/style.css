@@ -354,7 +354,7 @@ img { max-width: 100%; display: block; }
 
 .hero-img-wrapper {
     position: relative;
-    width: clamp(260px, 36vw, 380px);
+    width: clamp(240px, 32vw, 340px);
 }
 
 .hero-img-wrapper img {
