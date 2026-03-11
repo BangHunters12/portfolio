@@ -17,12 +17,10 @@ node {
 
     // Deploy
     stage("Deploy"){
-        docker.image('instrumentisto/rsync-ssh').inside('-u root') {
-            sshagent (credentials: ['ssh-prod']) {
-                sh 'mkdir -p ~/.ssh'
-                sh 'ssh-keyscan -H "localhost" >> ~/.ssh/known_hosts'
-                sh 'rsync -rav --delete ./ /tmp/laravel-deploy/ --exclude=.env --exclude=storage --exclude=.git'
-            }
+        docker.image('ubuntu').inside('-u root') {
+            sh 'mkdir -p /tmp/laravel-deploy'
+            sh 'cp -r . /tmp/laravel-deploy/'
+            sh 'echo "Deploy berhasil ke /tmp/laravel-deploy"'
         }
     }
 }
