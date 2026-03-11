@@ -14,4 +14,15 @@ node {
             sh 'echo "Ini adalah test"'
         }
     }
+
+    // Deploy
+    stage("Deploy"){
+        docker.image('instrumentisto/rsync-ssh').inside('-u root') {
+            sshagent (credentials: ['ssh-prod']) {
+                sh 'mkdir -p ~/.ssh'
+                sh 'ssh-keyscan -H "localhost" >> ~/.ssh/known_hosts'
+                sh 'rsync -rav --delete ./ /tmp/laravel-deploy/ --exclude=.env --exclude=storage --exclude=.git'
+            }
+        }
+    }
 }
