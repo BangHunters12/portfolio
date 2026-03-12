@@ -229,6 +229,7 @@
                         <span class="stag">NetBeans</span>
                         <span class="stag">Postman</span>
                         <span class="stag">Laragon</span>
+                        <span class="stag">Linux</span>
                     </div>
                 </div>
 
