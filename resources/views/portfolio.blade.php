@@ -357,6 +357,7 @@
                             <span class="badge badge-php">PHP</span>
                             <span class="badge badge-mysql">MySQL</span>
                             <span class="badge badge-bootstrap">Bootstrap</span>
+                            <span class="badge badge-fuzzy">JavaScript</span>
                         </div>
                         <div class="project-actions">
                             <a href="https://youtu.be/xUO2X-hDXqU?si=cjieXCWbzO1MFiIE" target="_blank" rel="noopener"
@@ -385,6 +386,8 @@
                             <span class="badge badge-flutter">Flutter</span>
                             <span class="badge badge-mysql">MySQL</span>
                             <span class="badge badge-php">PHP</span>
+                            <span class="badge badge-cpp">CSS</span>
+                            <span class="badge badge-fuzzy">JavaScript</span>
                         </div>
                         <div class="project-actions">
                             <a href="https://youtu.be/EQTt_3nupBM?si=jkb0F-wfbCvpzUOG" target="_blank" rel="noopener"
