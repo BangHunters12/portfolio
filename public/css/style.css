@@ -671,9 +671,16 @@ img {
     justify-content: center;
 }
 
+@keyframes heroFloat {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-16px); }
+    100% { transform: translateY(0px); }
+}
+
 .hero-img-wrapper {
     position: relative;
     width: clamp(240px, 32vw, 340px);
+    animation: heroFloat 5s ease-in-out infinite;
 }
 
 .hero-img-wrapper img {
@@ -1445,19 +1452,7 @@ img {
 }
 
 
-/* ── 14. REVEAL ANIMATIONS ── */
-.hidden-el {
-    opacity: 0;
-    transform: translateY(28px);
-    transition: opacity 0.75s ease, transform 0.75s ease;
-}
-
-.visible {
-    opacity: 1 !important;
-    transform: translateY(0) !important;
-}
-
-
+/* ── 14. REVEAL ANIMATIONS (Replaced by AOS) ── */
 /* ── 15. RESPONSIVE ── */
 @media (max-width: 1024px) {
     .hero-content {

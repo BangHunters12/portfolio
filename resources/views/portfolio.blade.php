@@ -21,6 +21,8 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -64,14 +66,14 @@
     <!-- ============ HERO ============ -->
     <header id="hero" class="hero-section">
         <div class="container hero-content">
-            <div class="hero-text">
+            <div class="hero-text" data-aos="fade-right">
                 <div class="hero-greeting">
                     <span class="dot-accent"></span>
                     <p>Available for Internship 2026</p>
                 </div>
                 <h1 class="headline">
                     Hi, I'm <span class="highlight">Dendi</span><br>
-                    Fullstack <span class="highlight-stroke">Developer</span>
+                    <span class="typed-text"></span>
                 </h1>
                 <p class="hero-description">
                     Mahasiswa Teknologi Informasi Politeknik Negeri Jember yang passionate dalam membangun aplikasi web,
@@ -88,7 +90,7 @@
                     <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact Me</a>
                 </div>
             </div>
-            <div class="hero-image">
+            <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
                 <div class="hero-img-wrapper">
                     <img src="{{ asset('images/profilqe.png') }}" alt="Dendi Aprilio Setiawan">
                     <div class="hero-badge hero-badge--top">
@@ -97,7 +99,7 @@
                     </div>
                     <div class="hero-badge hero-badge--bottom">
                         <i class="fas fa-graduation-cap"></i>
-                        {{-- <span>D3 IT — Polje</span> --}}
+                        {{-- <span>D3 IT — Polije</span> --}}
                     </div>
                 </div>
             </div>
@@ -112,7 +114,7 @@
     <section id="about" class="section">
         <div class="container">
             <div class="about-grid">
-                <div class="about-text-block">
+                <div class="about-text-block" data-aos="fade-up">
                     <p class="section-label"><i class="fas fa-user"></i> About Me</p>
                     <h2 class="section-heading">Passionate Developer,<br>Creative Problem Solver</h2>
                     <p class="about-body">
@@ -142,7 +144,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="about-right">
+                <div class="about-right" data-aos="fade-up" data-aos-delay="200">
                     <div class="edu-card-block">
                         <p class="section-label"><i class="fas fa-graduation-cap"></i> Education</p>
                         <div class="edu-item">
@@ -181,7 +183,7 @@
         <div class="container">
             <div class="split-section-v2">
                 <!-- Skills -->
-                <div class="skills-block">
+                <div class="skills-block" data-aos="fade-right">
                     <p class="section-label"><i class="fas fa-layer-group"></i> Technical Skills</p>
                     <h2 class="section-heading-sm">My Tech Stack</h2>
 
@@ -234,62 +236,62 @@
                 </div>
 
                 <!-- Experience / Progress bars -->
-                <div class="proficiency-block">
+                <div class="proficiency-block" data-aos="fade-left">
                     <p class="section-label"><i class="fas fa-chart-bar"></i> Proficiency</p>
                     <h2 class="section-heading-sm">Skill Level</h2>
 
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>Laravel / PHP</span><span>88%</span></div>
                         <div class="sb-track">
-                            <div class="sb-fill" style="width:88%"></div>
+                            <div class="sb-fill" data-width="88%"></div>
                         </div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>HTML & CSS</span><span>85%</span></div>
                         <div class="sb-track">
-                            <div class="sb-fill" style="width:85%"></div>
+                            <div class="sb-fill" data-width="85%"></div>
                         </div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>Flutter / Dart</span><span>80%</span></div>
                         <div class="sb-track">
-                            <div class="sb-fill" style="width:80%"></div>
+                            <div class="sb-fill" data-width="80%"></div>
                         </div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>JavaScript</span><span>78%</span></div>
                         <div class="sb-track">
-                            <div class="sb-fill" style="width:78%"></div>
+                            <div class="sb-fill" data-width="78%"></div>
                         </div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>Java (Desktop)</span><span>75%</span></div>
                         <div class="sb-track">
-                            <div class="sb-fill" style="width:75%"></div>
+                            <div class="sb-fill" data-width="75%"></div>
                         </div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>Python / YOLOv8</span><span>70%</span></div>
                         <div class="sb-track">
-                            <div class="sb-fill" style="width:70%"></div>
+                            <div class="sb-fill" data-width="70%"></div>
                         </div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>IoT (ESP32 / C++)</span><span>68%</span></div>
                         <div class="sb-track">
-                            <div class="sb-fill" style="width:68%"></div>
+                            <div class="sb-fill" data-width="68%"></div>
                         </div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>Figma / UI Design</span><span>82%</span></div>
                         <div class="sb-track">
-                            <div class="sb-fill" style="width:82%"></div>
+                            <div class="sb-fill" data-width="82%"></div>
                         </div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="sb-info"><span>Video Editing (Premiere/CapCut)</span><span>85%</span></div>
                         <div class="sb-track">
-                            <div class="sb-fill" style="width:85%"></div>
+                            <div class="sb-fill" data-width="85%"></div>
                         </div>
                     </div>
                 </div>
@@ -300,11 +302,11 @@
     <!-- ============ PROJECTS ============ -->
     <section id="projects" class="section">
         <div class="container">
-            <p class="section-label center"><i class="fas fa-code-branch"></i> Portfolio</p>
-            <h2 class="section-title">My Latest Projects</h2>
+            <p class="section-label center" data-aos="fade-up"><i class="fas fa-code-branch"></i> Portfolio</p>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">My Latest Projects</h2>
 
             <!-- Filter Tabs -->
-            <div class="project-filters">
+            <div class="project-filters" data-aos="fade-up" data-aos-delay="200">
                 <button class="filter-btn active" data-filter="all">All</button>
                 <button class="filter-btn" data-filter="desktop">Desktop</button>
                 <button class="filter-btn" data-filter="web">Web</button>
@@ -314,7 +316,7 @@
 
             <div class="projects-grid">
                 <!-- Project 1: Joinin Kopi -->
-                <article class="project-card" data-category="desktop">
+                <article class="project-card" data-category="desktop" data-aos="zoom-in" data-aos-delay="100">
                     <div class="project-image">
                         <img src="{{ asset('images/joinin_kopi.png') }}" alt="Joinin Kopi App" loading="lazy">
                         <div class="project-overlay">
@@ -342,7 +344,7 @@
                 </article>
 
                 <!-- Project 2: Topupin -->
-                <article class="project-card" data-category="web">
+                <article class="project-card" data-category="web" data-aos="zoom-in" data-aos-delay="200">
                     <div class="project-image">
                         <img src="{{ asset('images/topupin.png') }}" alt="Topupin App" loading="lazy">
                         <div class="project-overlay">
@@ -371,7 +373,7 @@
                 </article>
 
                 <!-- Project 3: SimpaDi -->
-                <article class="project-card" data-category="mobile">
+                <article class="project-card" data-category="mobile" data-aos="zoom-in" data-aos-delay="300">
                     <div class="project-image">
                         <img src="{{ asset('images/simpadi.png') }}" alt="SimpaDi App" loading="lazy">
                         <div class="project-overlay">
@@ -401,7 +403,7 @@
                 </article>
 
                 <!-- Project 4: IoT Smart Hidroponik -->
-                <article class="project-card" data-category="iot">
+                <article class="project-card" data-category="iot" data-aos="zoom-in" data-aos-delay="400">
                     <div class="project-image">
                         <img src="{{ asset('images/hidroponik_iot.png') }}" alt="IoT Smart Hidroponik"
                             loading="lazy">
@@ -438,12 +440,12 @@
     <!-- ============ CONTACT ============ -->
     <section id="contact" class="section bg-darker">
         <div class="container">
-            <p class="section-label center"><i class="fas fa-paper-plane"></i> Get In Touch</p>
-            <h2 class="section-title">Let's Work Together</h2>
-            <p class="section-subtitle">Saya sedang mencari kesempatan <strong>magang / internship</strong> di bidang
+            <p class="section-label center" data-aos="fade-up"><i class="fas fa-paper-plane"></i> Get In Touch</p>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Let's Work Together</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">Saya sedang mencari kesempatan <strong>magang / internship</strong> di bidang
                 pengembangan software. Mari terhubung!</p>
 
-            <div class="contact-wrapper">
+            <div class="contact-wrapper" data-aos="fade-up" data-aos-delay="300">
                 <div class="contact-info">
                     <div class="contact-info-card">
                         <div class="contact-item">
@@ -527,6 +529,28 @@
         </div>
     </footer>
 
+    <!-- Typed.js for typing animation -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed('.typed-text', {
+            strings: [
+                "a Fullstack <span class='highlight-stroke'>Web Developer</span>", 
+                "a Mobile <span class='highlight-stroke'>Developer</span>", 
+                "a IoT <span class='highlight-stroke'>Engineer</span>", 
+                "a UI/UX <span class='highlight-stroke'>Designer</span>",
+                "a Video <span class='highlight-stroke'>Editing</span>"
+            ],
+            typeSpeed: 70,
+            backSpeed: 40,
+            backDelay: 2000,
+            loop: true,
+            showCursor: true,
+            cursorChar: '|',
+            autoInsertCss: true,
+            contentType: 'html'
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="{{ asset('js/script.js') }}"></script>
 </body>
 

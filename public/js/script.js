@@ -113,34 +113,6 @@ document.addEventListener('DOMContentLoaded', () => {
     sections.forEach(s => observer.observe(s));
 
 
-    // ── 4. SCROLL REVEAL ──
-    const revealAll = document.querySelectorAll(
-        '.section-title, .section-label, .about-grid, .contact-wrapper, .edu-card-block, .service-list-block, .about-stats'
-    );
-    const revealGroups = document.querySelectorAll(
-        '.projects-grid, .skill-tags-group, .proficiency-block, .skills-block'
-    );
-
-    const revealObs = new IntersectionObserver(entries => {
-        entries.forEach(e => {
-            if (e.isIntersecting) {
-                e.target.classList.add('visible');
-                revealObs.unobserve(e.target);
-            }
-        });
-    }, { threshold: 0.1 });
-
-    revealAll.forEach(el => { el.classList.add('hidden-el'); revealObs.observe(el); });
-
-    // Staggered children
-    revealGroups.forEach(container => {
-        Array.from(container.children).forEach((child, idx) => {
-            child.classList.add('hidden-el');
-            child.style.transitionDelay = `${idx * 80}ms`;
-            revealObs.observe(child);
-        });
-    });
-
 
     // ── 5. SKILL BAR ANIMATION ──
     const fills = document.querySelectorAll('.sb-fill');
@@ -150,19 +122,22 @@ document.addEventListener('DOMContentLoaded', () => {
         entries.forEach(e => {
             if (e.isIntersecting && !barsAnimated) {
                 barsAnimated = true;
-                fills.forEach(fill => {
-                    const w = fill.style.width;
-                    fill.style.width = '0';
-                    requestAnimationFrame(() => {
-                        setTimeout(() => { fill.style.width = w; }, 100);
-                    });
+                fills.forEach((fill, index) => {
+                    const targetWidth = fill.getAttribute('data-width');
+                    if (targetWidth) {
+                        // Stagger the animation of each bar like a volume indicator
+                        setTimeout(() => {
+                            fill.style.width = targetWidth;
+                        }, index * 100);
+                    }
                 });
                 barObs.disconnect();
             }
         });
     }, { threshold: 0.2 });
 
-    document.querySelector('#skills-experience') && barObs.observe(document.querySelector('#skills-experience'));
+    const skillsSection = document.querySelector('#skills-experience');
+    if (skillsSection) barObs.observe(skillsSection);
 
 
     // ── 6. PROJECT FILTER ──
@@ -177,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
             projectCards.forEach(card => {
                 if (filter === 'all' || card.getAttribute('data-category') === filter) {
                     card.style.display = '';
-                    requestAnimationFrame(() => { card.classList.add('visible'); card.classList.remove('hidden-el'); });
+                    setTimeout(() => AOS.refresh(), 100);
                 } else {
                     card.style.display = 'none';
                 }
@@ -226,6 +201,16 @@ document.addEventListener('DOMContentLoaded', () => {
             const next = current === 'dark' ? 'light' : 'dark';
             htmlEl.setAttribute('data-theme', next);
             localStorage.setItem('portfolio-theme', next);
+        });
+    }
+
+    // ── 9. INITIALIZE AOS ──
+    if (typeof AOS !== 'undefined') {
+        AOS.init({
+            once: true,
+            offset: 100,
+            duration: 800,
+            easing: 'ease-out-cubic'
         });
     }
 
