@@ -413,7 +413,7 @@
                         <div class="tech-badges">
                             <span class="badge badge-laravel">Laravel</span>
                             <span class="badge badge-cpp">C++</span>
-                            <span class="badge badge-java">Java</span>
+                            <span class="badge badge-java">python</span>
                             <span class="badge badge-esp32">ESP32</span>
                             <span class="badge badge-yolo">YOLOv8</span>
                             <span class="badge badge-fuzzy">Fuzzy Mamdani</span>
