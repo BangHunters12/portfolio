@@ -41,7 +41,8 @@
     <nav class="navbar">
         <div class="container nav-container">
             <a href="#hero" class="logo">
-                <img src="{{ asset('logo/logo.png') }}" alt="Logo Dendi" style="max-height: 120px; width: auto; max-width: 140px; object-fit: contain;">
+                <img src="{{ asset('logo/logo.png') }}" alt="Logo Dendi"
+                    style="max-height: 120px; width: auto; max-width: 140px; object-fit: contain;">
             </a>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
@@ -412,6 +413,7 @@
                         <div class="tech-badges">
                             <span class="badge badge-laravel">Laravel</span>
                             <span class="badge badge-cpp">C++</span>
+                            <span class="badge badge-java">Java</span>
                             <span class="badge badge-esp32">ESP32</span>
                             <span class="badge badge-yolo">YOLOv8</span>
                             <span class="badge badge-fuzzy">Fuzzy Mamdani</span>
