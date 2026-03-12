@@ -358,6 +358,7 @@
                             <span class="badge badge-mysql">MySQL</span>
                             <span class="badge badge-bootstrap">Bootstrap</span>
                             <span class="badge badge-fuzzy">JavaScript</span>
+                            <span class="badge badge-flutter">Kotlin</span>
                         </div>
                         <div class="project-actions">
                             <a href="https://youtu.be/xUO2X-hDXqU?si=cjieXCWbzO1MFiIE" target="_blank" rel="noopener"
